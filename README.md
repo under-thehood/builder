@@ -3,6 +3,7 @@
 
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
+![Logo](builder_logo.png)
 
 # Builder
 
@@ -33,9 +34,9 @@ Project tree is like this :
 ![alt text](project_structure.png)
 
 
-```c
+```c build-script.c
 #include <stdio.h>
-#include "../builder.h"
+#include "./builder.h"
 
 
 bool is_suffix_with(char *strToCheck, char *suffix)
