@@ -30,6 +30,8 @@ Refer to the provided code documentation and examples to gain a deeper understan
 
 Project tree is like this :
 
+![alt text](project_structure.png)
+
 
 ```c
 #include <stdio.h>
