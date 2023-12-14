@@ -28,13 +28,12 @@ void builder_add_file_path(Builder *builder, FilePaths *filePaths);
 
 bool builder_add_file(Builder *builder, char *fileName);
 
-//[INFO] : FOR debug purpose only
-void display_file_path_list(FilePaths *files);
-
-void builder_display_compiler_command(Builder *builder);
-
 FilePaths *find_all_file_in_dir(const char *dirname);
 
 FilePaths *find_files_with_filter(const char *dirname, FileFilterFunction filterFunction);
+
+//[INFO] : FOR debug purpose only
+void display_file_path_list(FilePaths *files);
+void builder_display_compiler_command(Builder *builder);
 
 #endif
